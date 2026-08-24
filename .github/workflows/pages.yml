@@ -30,6 +30,7 @@ jobs:
           mkdir -p _site/tianchi-control
           cp index.html _site/index.html
           cp tianchi-control/index.html _site/tianchi-control/index.html
+          cp CNAME _site/CNAME
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
