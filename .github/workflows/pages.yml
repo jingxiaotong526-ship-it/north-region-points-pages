@@ -1,3 +1,4 @@
+# Static wrapper for the existing live points system
 name: Publish GitHub Pages
 
 on:
