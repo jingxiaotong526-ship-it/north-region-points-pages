@@ -1,4 +1,5 @@
 # Static wrapper for the existing live points system
+# GitHub Pages enabled; start a fresh deployment
 name: Publish GitHub Pages
 
 on:
