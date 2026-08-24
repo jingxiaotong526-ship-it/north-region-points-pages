@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f8f6">
+  <meta name="robots" content="noindex,nofollow">
+  <title>董天驰专属控分端｜北区积分系统</title>
+  <style>
+    *{box-sizing:border-box}
+    html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#f4f8f6}
+    #system{display:block;width:100%;height:100vh;height:100dvh;border:0;background:#f4f8f6}
+    noscript{display:block;padding:24px;font:16px/1.7 system-ui,sans-serif;color:#163c2c}
+    noscript a{color:#0d7a4f}
+  </style>
+</head>
+<body>
+  <iframe id="system" title="董天驰专属控分端"
+    allow="microphone" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  <noscript>请开启 JavaScript，或<a href="https://north-region-points.jingxiaotong526.chatgpt.site/tianchi-control">打开原控分链接</a>。</noscript>
+  <script>
+    const target = new URL("https://north-region-points.jingxiaotong526.chatgpt.site/tianchi-control");
+    target.search = location.search;
+    target.hash = location.hash;
+    document.getElementById("system").src = target.href;
+    if (location.search || location.hash) history.replaceState(null, "", location.pathname);
+  </script>
+</body>
+</html>
